@@ -1,0 +1,507 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; 
+}
+
+/* This is the nav section */
+body{
+    font-family: "Roboto", sans-serif;
+}
+
+
+.nav-bar{
+    width: 100%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.nav1{
+    width: 95%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav1 ul{
+    list-style: none;
+    display: flex;
+}
+
+.left{
+    display: flex;
+    gap: 50px;
+}
+
+.left ul{
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+
+.right{
+    display: flex;
+    align-items: center;
+    justify-content: end;
+}
+
+.right ul{
+    display: flex;
+    gap: 20px;
+}
+
+
+/* now we will start the hero section  */
+
+.container1{
+    width: 100%;
+    background-color: #fbf7ee;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+
+.context1{
+    width: 80%;
+
+    display: flex;
+    margin-top: 50px;
+}
+
+.left1 h1{
+    font-size: 60px;
+    color: #134c3f;
+}
+
+.left1 p{
+    padding-top: 30px;
+    font-size: 20px;
+    line-height: 30px;
+}
+
+.left1 a{
+    text-decoration: none;
+    font-size: 25px;
+    font-weight: 900;
+    color: black;
+}
+
+#peg{
+    padding-bottom: 20px;
+}
+
+.left1 button{
+    padding-block: 15px;
+    padding-inline: 30px;
+    font-size: 20px;
+    font-weight: 600;
+    color: white;
+    border: none;
+    background-color: #326d3c;
+}
+
+.point{
+width: 100%;
+height: auto;
+display: flex;
+align-items: center;
+justify-content: center;
+background-color: #fbf7ee;
+}
+
+.items{
+    width: 90%;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 30px;
+}
+
+.items p{
+    font-size: 26px;
+}
+
+
+
+/* This is the card section */
+
+.contianer2{
+    width: 100%;
+    height: auto;
+    
+}
+
+.text{
+    text-align: center;
+    padding-top: 50px;
+}
+
+.text h2{
+    font-size: 45px;
+    font-weight: 400;
+    color: #333333;
+}
+
+.text p{
+    font-size: 23px;
+    padding-top: 10px;
+    color: #555555;
+    padding-bottom: 80px ;
+}
+
+
+.cards{
+    display: flex;
+    align-items: center ;
+    justify-content: center;
+    padding-bottom: 100px;
+
+}
+
+.boxes{
+    display: flex;
+    gap: 20px;
+}
+.box{
+    width: 23vw;
+    height: 54vh;
+    border: 1px solid #e1e0e0;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    padding: 5px;
+}
+
+.box h2{
+    padding-block: 20px;
+    
+}
+
+.box p{
+    padding-top: 15px;
+    padding-bottom: 20px;
+    line-height: 25px;
+    font-size: 16px;
+}
+
+.box h3{
+    padding-block: 20px;
+}
+
+.box button{
+    padding-block:   15px ;
+    padding-inline: 30px ;
+    font-size: 15px;
+    font-weight: 700;
+    border: none;
+    color: white;
+    background-color: #326d3c;
+}
+
+
+
+/* This is the info section */
+
+.container3{
+    width: 100%;
+    height: 90vh;
+    display: flex;
+    background-color: #1d4c3f ;
+    color: white;
+}
+
+.text1{
+    width: 50%;
+    padding: 50px;
+}
+
+.text1 h2{
+    font-size: 45px;
+    font-weight: 400;
+    line-height: 55px;
+    padding-bottom: 15px;
+}
+
+.text1 p{
+    font-size:15px;
+    padding-block: 20px;
+    line-height: 26px;
+}
+
+.text1 a{
+    color: white;
+}
+
+.img1{
+width: 50%;
+background-image:url(./image/hp-hosting-platform.jpg) ;
+background-size: cover;
+}
+
+
+
+
+/* This is the grid section  */
+.container4{
+    width: 100%;
+    height: auto;
+}
+
+.text2{
+    padding-top: 60px;
+    text-align: center;
+}
+
+.text2 h2{
+    font-size: 40px;
+    font-weight: 400;
+}
+
+.text2 p{
+    font-size: 22px ;
+    padding-block:10px;
+    color: #555555;
+}
+
+
+.grid1{
+    display: grid;
+    width: 100%;
+    height: auto;
+    grid-template-columns: auto auto auto;  
+    grid-template-rows: auto auto auto;
+    padding: 20px;
+    gap: 10px;
+}
+
+.prod{
+height: 30vh;
+display: flex;
+flex-direction: column;
+align-items: center;
+padding: 10px;
+text-align: center;
+}
+
+.prod h2{
+    padding-block:10px;
+}
+
+.prod p{
+    font-size:15px;
+    padding-block: 10px;
+    color: #555555;
+}
+
+
+/* This is the Green Section */
+
+.container5{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color:#f4fcf4;
+}
+
+.section{
+width: 90%;
+display: flex;
+padding-top:150px ;
+}
+
+.img-sec1{
+width: 40%;
+
+}
+
+
+.text-sec1{
+    width: 60%;
+
+    padding: 10px;
+}
+
+
+.text-sec1 h2{
+    font-size: 70px;
+    font-weight: 400;
+}
+
+.text-sec1 p{
+    font-size: 20px;
+    line-height: 35px;
+    padding-block: 15px;
+}
+
+.text-sec1 a{
+    color: black;
+}
+
+.box3{
+    display: grid;
+    width: 100%;
+    height: auto;
+    grid-template-columns: auto auto auto;  
+    padding: 20px;
+    gap: 10px;
+    padding-bottom: 100px;
+}
+
+
+.box4{
+    padding: 10px;
+    padding-block: 50px;
+}
+
+.box4 h2{
+font-size: 35px;
+font-weight: 400;
+}
+
+.box4 p{
+    padding-block: 20px;
+    font-size: 20px;
+    color:#555555;
+}
+
+
+
+.container6{
+    width: 100%;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-block: 50px;
+}
+
+.section1{
+width: 95%;
+}
+
+.head1{
+    padding-top: 30px;
+}
+
+.head1 h2{
+    font-size: 35px;
+    font-weight: 400;
+    padding-block: 15px ;
+}
+
+.head1 a{
+    color: #326d3c;
+}
+
+.card1{
+    display: flex;
+    gap: 20px;
+}
+
+.box5{
+    width: 20vw;
+    height: 23vh;
+    border-bottom: 3px solid #e2e7ed;
+    background-color: #f8f9fa;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    text-align: start;
+    gap: 5px;
+}
+
+.box5 h2{
+    font-size: 20px;
+}
+
+
+.box5 p{
+    font-size: 12px;
+}
+
+.box5 a{
+    color: #a7a7a7 ;
+    text-decoration: none;
+}
+
+/* This is the get started section  */
+
+.container7{
+    background-color: #f1f1f1 ;
+    padding-block: 100px;
+    text-align: center;
+}
+
+.container7 h2{
+font-size: 50px;
+font-weight: 400;
+}
+
+.container7 p{
+    font-size: 20px;
+    padding-block: 20px;
+    line-height: 35px;
+}
+
+.container7 button{
+    padding-inline: 50px ;
+    padding-block:15px ;
+    font-size: 20px;
+    font-weight: 600;
+    border: none;
+    background-color: #326d3c;
+    color: white;
+}
+
+/* This is the foooter section  */
+
+.container8{
+    width: 100%;
+    height: 99vh;
+    background-color:#072839 ;
+    color: white;
+    display: flex;
+    justify-content: center;
+}
+
+
+.section2{
+    width: 95%;
+
+    display: flex;
+    padding-top:90px ;
+}
+
+.left2{
+    display: flex;
+
+    width: 80%;
+    gap: 130px;
+
+}
+
+.left2 ul{
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.left2 ul li{
+    color: #999999;
+
+} 
+
+.right2{
+color: white;
+}
